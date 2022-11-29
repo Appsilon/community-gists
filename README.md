@@ -18,5 +18,7 @@ A general structure can be as follows:
   - descriptive_filename_1.R
   - descriptive_filename_2.R
   
+If the example belongs to no project, feel free to use the `misc` directory.
+  
  ## For Developers (external)
 If you find some error/problem with the code, feel free to raise an Issue and we would be happy to look into it.
