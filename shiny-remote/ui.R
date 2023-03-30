@@ -1,5 +1,3 @@
-source("valuemanager.R")
-
 ui <- fluidPage(
   
   # Include Shiny.js library

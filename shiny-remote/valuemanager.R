@@ -1,4 +1,3 @@
-library(shiny) # load the shiny package
 library(R6)    # load the R6 package
 
 # Define a new R6Class called ValueManager to manage reactive values
