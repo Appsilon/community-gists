@@ -3,64 +3,61 @@ box::use(
   DT[DTOutput, renderDT, datatable]
 )
 
-# table_module_ui <- function(id, label = "Show rownames?") {
-#   ns <- NS(id)
-#   tagList(
-#     checkboxInput("rownames_button", label = "Show rownames?", value = TRUE),
-#     DTOutput(ns("out"))
-#   )
-# }
-#
-# table_module_server <- function(id, data, rownames){
-#   moduleServer(
-#     id,
-#     function(input, output, session) {
-#       output$out <- renderDT({
-#         datatable(
-#           data,
-#           options = list(lengthChange = FALSE),
-#           rownames = rownames
-#         )
-#       })
-#     }
-#   )
-# }
+# module UI declaration
+table_module_ui <- function(id) {
+  ns <- NS(id)
+  tagList(
+    DTOutput(ns("out"))
+  )
+}
 
+# module server declaration
+table_module_server <- function(id, dataset){
+  moduleServer(
+    id,
+    function(input, output, session) {
+
+      output$out <- renderDT({
+        datatable(data = dataset())
+      })
+    }
+  )
+}
+
+# UI
 ui <- fluidPage(
   headerPanel("App title"),
+
   sidebarPanel(
     radioButtons(
       inputId = "dataset",
       label = h3("Choose dataset"),
-      choices = list("mtcars" = "mtcars", "iris" = "iris"),
-      selected = NULL)
-  ),
-  mainPanel(
-    # table_module_ui(id = "first_table")
-    tagList(
-      checkboxInput("rownames_button", label = "Show rownames?", value = TRUE),
-      # DTOutput(ns("out"))
-      DTOutput("out")
+      choices = list(
+        "mtcars" = "mtcars",
+        "iris" = "iris")
     )
+  ),
+
+  mainPanel(
+    table_module_ui(id = "first_table")
   )
 )
 
-server <- function(input, output) {
-  dataset_reactive <- reactive({
-    if (input$dataset == "mtcars") {
-      mtcars
-    } else {
-      iris
-    }
+# server
+server <- function(input, output, session) {
+  observe({
+    print(input$dataset)
   })
 
-  output$out <- renderDT({
-    datatable(
-      dataset_reactive(),
-      options = list(lengthChange = FALSE),
-      rownames = rownames
+  dataset_reactive <- reactive({
+    req(input$dataset)
+    switch(
+      input$dataset,
+      "mtcars" = mtcars,
+      "iris" = iris
     )
   })
+  table_module_server(id = "first_table", dataset = dataset_reactive)
 }
 
 shinyApp(ui, server)
