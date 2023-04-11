@@ -1,15 +1,12 @@
 ## database.R
 
-# loading -----------------------------------------------------------------------------------------
+# loading libraries -------------------------------------------------------------------------------
 box::use(
-  dplyr[
-    mutate, relocate, where, select
-  ],
-  DBI[
-    dbConnect, dbCreateTable, dbDisconnect
-  ],
-  RSQLite[SQLite]
+  dplyr[mutate, relocate, where, select],
+  RSQLite[SQLite],
+  DBI[dbConnect, dbWriteTable, dbDisconnect]
 )
+
 
 # preparing data sets for database ----------------------------------------------------------------
 mtcars <- datasets::mtcars
@@ -31,10 +28,13 @@ iris_df_proper <- iris |>
 iris_df_missing_cols <- iris_df_proper |>
   select(-Sepal.Width)
 
+
 # creating a database -----------------------------------------------------------------------------
 con <- dbConnect(drv = SQLite(), "data_source.db") # we create a new DB
-dbCreateTable(conn = con, name = "mtcars_proper", fields = mtcars_df_proper)
-dbCreateTable(conn = con, name = "mtcars_missing_cols", fields = mtcars_df_missing_cols)
-dbCreateTable(conn = con, name = "iris_df_proper", fields = iris_df_proper)
-dbCreateTable(conn = con, name = "iris_df_missing_cols", fields = iris_df_missing_cols)
+
+dbWriteTable(conn = con,  name = "mtcars_df_proper", value = mtcars_df_proper)
+dbWriteTable(conn = con, name = "mtcars_df_missing_cols", value = mtcars_df_missing_cols)
+dbWriteTable(conn = con, name = "iris_df_proper", value = iris_df_proper)
+dbWriteTable(conn = con, name = "iris_df_missing_cols", value = iris_df_missing_cols)
+
 dbDisconnect(conn = con)
