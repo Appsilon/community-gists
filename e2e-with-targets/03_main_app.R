@@ -13,9 +13,7 @@ box::use(
 )
 
 # loading Shiny modules
-box::use(
-  ./app_modules[...]
-)
+source("app_modules.R", local = TRUE)$value
 
 # main app ----------------------------------------------------------------------------------------
 # UI
