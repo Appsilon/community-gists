@@ -7,7 +7,6 @@ box::use(
   DBI[dbConnect, dbWriteTable, dbDisconnect]
 )
 
-
 # preparing data sets for database ----------------------------------------------------------------
 mtcars <- datasets::mtcars
 iris <- datasets::iris
@@ -28,11 +27,10 @@ iris_df_proper <- iris |>
 iris_df_missing_cols <- iris_df_proper |>
   select(-Sepal.Width)
 
-
 # creating a database -----------------------------------------------------------------------------
 con <- dbConnect(drv = SQLite(), "data_source.db") # we create a new DB
 
-dbWriteTable(conn = con,  name = "mtcars_df_proper", value = mtcars_df_proper)
+dbWriteTable(conn = con, name = "mtcars_df_proper", value = mtcars_df_proper)
 dbWriteTable(conn = con, name = "mtcars_df_missing_cols", value = mtcars_df_missing_cols)
 dbWriteTable(conn = con, name = "iris_df_proper", value = iris_df_proper)
 dbWriteTable(conn = con, name = "iris_df_missing_cols", value = iris_df_missing_cols)
