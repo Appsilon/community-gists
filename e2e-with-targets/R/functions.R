@@ -1,3 +1,15 @@
+# loading packages --------------------------------------------------------------------------------
+box::use(
+  shiny[testServer, reactive],
+  RSQLite[SQLite],
+  DBI[dbConnect, dbDisconnect, dbGetQuery, dbListTables],
+  glue[glue_sql],
+  jsonlite[fromJSON, validate],
+  testthat[expect_is, expect],
+  htmltools[tagQuery],
+  rvest[html_table, read_html],
+)
+
 # loading Shiny modules ---------------------------------------------------------------------------
 load_modules <- function(file_path) {
   source(file_path, local = TRUE)
