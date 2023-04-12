@@ -1,5 +1,5 @@
 box::use(
-  shiny[...],
+  shiny[tagList, NS, moduleServer, renderTable, tableOutput],
   DT[DTOutput, renderDT, datatable]
 )
 
