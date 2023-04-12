@@ -1,1 +1,7 @@
 .DS_Store
+.Rproj.user
+*.db
+.Rprofile
+*/targets_copy.R
+*.Rproj
+
