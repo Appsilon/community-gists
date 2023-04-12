@@ -12,8 +12,9 @@ box::use(
   glue[glue_sql]
 )
 
-# loading Shiny modules
-source("app_modules.R", local = TRUE)$value
+# loading Shiny modules ---------------------------------------------------------------------------
+# box returns crazy error about {rstudioapi} which isn't directly used anywhere
+source("R/app_modules.R", local = TRUE)$value
 
 # main app ----------------------------------------------------------------------------------------
 # UI
