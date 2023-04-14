@@ -91,18 +91,33 @@ download_dataset_for_test <- function(db_name, table_name) {
 # helper function to download all the table names in DB -------------------------------------------
 find_table_names_in_db <- function(db_name) {
   con <- dbConnect(drv = SQLite(), db_name)
-
-  # downloading proper table to data frame
   table_names <- DBI::dbListTables(conn = con)
-
   dbDisconnect(conn = con)
-
   return(table_names)
 }
 
+# helper function to download a table from DB -----------------------------------------------------
+download_table_from_db <- function(db_name, table_name) {
+  con <- dbConnect(drv = SQLite(), db_name)
+  table_results <- DBI::dbGetQuery(
+    conn = con,
+    statement = glue::glue_sql("SELECT * FROM {table_name};", .con = con)
+  )
+  dbDisconnect(conn = con)
+  return(table_results)
+}
+
+
 # helper function for downloading and testing a module --------------------------------------------
-test_module <- function(db_name, table_name) {
-  dataset_df <- download_dataset_for_test(db_name, table_name)
+# test_module <- function(db_name, table_name) {
+#   dataset_df <- download_dataset_for_test(db_name, table_name)
+#   test_module_dt(dataset = dataset_df, show_row_names = FALSE)
+#   test_module_table(dataset = dataset_df, show_row_names = FALSE)
+# }
+
+
+test_module <- function(dataset_df) {
+  # dataset_df <- download_dataset_for_test(db_name, table_name)
   test_module_dt(dataset = dataset_df, show_row_names = FALSE)
   test_module_table(dataset = dataset_df, show_row_names = FALSE)
 }

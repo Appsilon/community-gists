@@ -36,8 +36,27 @@ tar_source()
 # source("other_functions.R") # Source other scripts as needed. # nolint
 
 # Replace the target list below with your own:
+
+# list(
+#   tar_target(db_name, "data_source.db", format = "file"),
+#   tarchetypes::tar_map(
+#     list(db_name = "data_source.db"),
+#     tar_target(table_names, find_table_names_in_db(db_name)),
+#     tar_target(download_df, download_table_from_db(db_name, table_names), pattern = map(table_names)),
+#     tar_target(test_modules, test_module(db_name, table_name = download_df))
+#   )
+# )
+
 list(
   tar_target(db_name, "data_source.db", format = "file"),
   tar_target(table_names, find_table_names_in_db(db_name)),
-  tar_target(test_modules, test_module(db_name, table_name = table_names[1]))
+  tar_target(mtcars_proper, download_table_from_db(db_name, table_names[1])),
+  tar_target(iris_proper, download_table_from_db(db_name, table_names[3])),
+  tar_target(test_modules_1, test_module(mtcars_proper)),
+  tar_target(test_modules_2, test_module(iris_proper))
 )
+
+# use case - data validation, saving time thanks to skipping already done stuff
+# additionally: use tarchetypes::tar_map() to dynamic branching (creating it on the fly)
+# orginal reason: many tables, many inputs
+# tar_read()
