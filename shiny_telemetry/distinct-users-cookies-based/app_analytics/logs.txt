@@ -1,0 +1,76 @@
+{"app_name":["myApp"],"type":["login"],"session":["93e788bcec73f4f68c63cbbef488676a"],"details":["{\"username\":{}}"],"time":[1697059413.6643]}
+{"app_name":["myApp"],"type":["browser"],"session":["93e788bcec73f4f68c63cbbef488676a"],"details":["{\"value\":[\"Chrome 117\"]}"],"time":[1697059413.7463]}
+{"app_name":["myApp"],"type":["login"],"session":["93e788bcec73f4f68c63cbbef488676a"],"details":["{\"username\":[\"jyvhui2bh69hb6ihv10fdnhalasidm\"]}"],"time":[1697059413.751]}
+{"app_name":["myApp"],"type":["input"],"session":["93e788bcec73f4f68c63cbbef488676a"],"details":["{\"id\":[\"jscookie\"],\"value\":{}}"],"time":[1697059413.7531]}
+{"app_name":["myApp"],"type":["input"],"session":["93e788bcec73f4f68c63cbbef488676a"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697059420.3162]}
+{"app_name":["myApp"],"type":["input"],"session":["93e788bcec73f4f68c63cbbef488676a"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697059420.4909]}
+{"app_name":["myApp"],"type":["input"],"session":["93e788bcec73f4f68c63cbbef488676a"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697059420.6625]}
+{"app_name":["myApp"],"type":["input"],"session":["93e788bcec73f4f68c63cbbef488676a"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697059420.8567]}
+{"app_name":["myApp"],"type":["login"],"session":["4e95076e7e565b2fe290988592e3417e"],"details":["{\"username\":{}}"],"time":[1697059426.586]}
+{"app_name":["myApp"],"type":["browser"],"session":["4e95076e7e565b2fe290988592e3417e"],"details":["{\"value\":[\"Chrome 117\"]}"],"time":[1697059426.635]}
+{"app_name":["myApp"],"type":["login"],"session":["4e95076e7e565b2fe290988592e3417e"],"details":["{\"username\":[\"jyvhui2bh69hb6ihv10fdnhalasidm\"]}"],"time":[1697059426.6409]}
+{"app_name":["myApp"],"type":["input"],"session":["4e95076e7e565b2fe290988592e3417e"],"details":["{\"id\":[\"jscookie\"],\"value\":{}}"],"time":[1697059426.6436]}
+{"app_name":["myApp"],"type":["input"],"session":["4e95076e7e565b2fe290988592e3417e"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697059428.1937]}
+{"app_name":["myApp"],"type":["input"],"session":["4e95076e7e565b2fe290988592e3417e"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697059428.3818]}
+{"app_name":["myApp"],"type":["input"],"session":["4e95076e7e565b2fe290988592e3417e"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697059428.5679]}
+{"app_name":["myApp"],"type":["login"],"session":["5bf78ba14eb740bc3fb83573c5ef4562"],"details":["{\"username\":{}}"],"time":[1697059434.6412]}
+{"app_name":["myApp"],"type":["browser"],"session":["5bf78ba14eb740bc3fb83573c5ef4562"],"details":["{\"value\":[\"Chrome 117\"]}"],"time":[1697059434.6859]}
+{"app_name":["myApp"],"type":["login"],"session":["5bf78ba14eb740bc3fb83573c5ef4562"],"details":["{\"username\":[\"d9byitk5ommgpcy2q6nat1culogt80\"]}"],"time":[1697059434.6929]}
+{"app_name":["myApp"],"type":["input"],"session":["5bf78ba14eb740bc3fb83573c5ef4562"],"details":["{\"id\":[\"jscookie\"],\"value\":{}}"],"time":[1697059434.6961]}
+{"app_name":["myApp"],"type":["input"],"session":["5bf78ba14eb740bc3fb83573c5ef4562"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697059437.7399]}
+{"app_name":["myApp"],"type":["input"],"session":["5bf78ba14eb740bc3fb83573c5ef4562"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697059437.907]}
+{"app_name":["myApp"],"type":["login"],"session":["c6d97bfa357e13e9e215d0a8ea6ce9c1"],"details":["{\"username\":{}}"],"time":[1697059439.2238]}
+{"app_name":["myApp"],"type":["browser"],"session":["c6d97bfa357e13e9e215d0a8ea6ce9c1"],"details":["{\"value\":[\"Chrome 117\"]}"],"time":[1697059439.2715]}
+{"app_name":["myApp"],"type":["login"],"session":["c6d97bfa357e13e9e215d0a8ea6ce9c1"],"details":["{\"username\":[\"d9byitk5ommgpcy2q6nat1culogt80\"]}"],"time":[1697059439.2785]}
+{"app_name":["myApp"],"type":["input"],"session":["c6d97bfa357e13e9e215d0a8ea6ce9c1"],"details":["{\"id\":[\"jscookie\"],\"value\":{}}"],"time":[1697059439.2824]}
+{"app_name":["myApp"],"type":["logout"],"session":["c6d97bfa357e13e9e215d0a8ea6ce9c1"],"details":["{\"username\":{}}"],"time":[1697059442.4072]}
+{"app_name":["myApp"],"type":["logout"],"session":["5bf78ba14eb740bc3fb83573c5ef4562"],"details":["{\"username\":{}}"],"time":[1697059442.4142]}
+{"app_name":["myApp"],"type":["login"],"session":["3b68f860dc0b112519193b525ecd93d6"],"details":["{\"username\":{}}"],"time":[1697059444.8279]}
+{"app_name":["myApp"],"type":["browser"],"session":["3b68f860dc0b112519193b525ecd93d6"],"details":["{\"value\":[\"Chrome 117\"]}"],"time":[1697059444.8677]}
+{"app_name":["myApp"],"type":["login"],"session":["3b68f860dc0b112519193b525ecd93d6"],"details":["{\"username\":[\"0ghh9gmt3xs55m2o6vf2pn6p0cxdwz\"]}"],"time":[1697059444.8723]}
+{"app_name":["myApp"],"type":["input"],"session":["3b68f860dc0b112519193b525ecd93d6"],"details":["{\"id\":[\"jscookie\"],\"value\":{}}"],"time":[1697059444.875]}
+{"app_name":["myApp"],"type":["input"],"session":["3b68f860dc0b112519193b525ecd93d6"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697059447.034]}
+{"app_name":["myApp"],"type":["input"],"session":["3b68f860dc0b112519193b525ecd93d6"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697059447.2469]}
+{"app_name":["myApp"],"type":["input"],"session":["3b68f860dc0b112519193b525ecd93d6"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697059447.3953]}
+{"app_name":["myApp"],"type":["input"],"session":["3b68f860dc0b112519193b525ecd93d6"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697059447.8367]}
+{"app_name":["myApp"],"type":["input"],"session":["3b68f860dc0b112519193b525ecd93d6"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697059447.9813]}
+{"app_name":["myApp"],"type":["logout"],"session":["3b68f860dc0b112519193b525ecd93d6"],"details":["{\"username\":{}}"],"time":[1697059450.6061]}
+{"app_name":["myApp"],"type":["logout"],"session":["4e95076e7e565b2fe290988592e3417e"],"details":["{\"username\":{}}"],"time":[1697059454.2838]}
+{"app_name":["myApp"],"type":["logout"],"session":["93e788bcec73f4f68c63cbbef488676a"],"details":["{\"username\":{}}"],"time":[1697059454.2869]}
+{"app_name":["myApp"],"type":["login"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"username\":{}}"],"time":[1697831003.3093]}
+{"app_name":["myApp"],"type":["browser"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"value\":[\"Chrome 117\"]}"],"time":[1697831004.8882]}
+{"app_name":["myApp"],"type":["login"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"username\":[\"8pg2q3e0sqx6yk4v0c5wb6ni8h28d3\"]}"],"time":[1697831004.9101]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"jscookie\"],\"value\":{}}"],"time":[1697831004.924]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831007.1408]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831007.2725]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831007.5837]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831007.7459]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831009.0191]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831009.1928]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831009.4083]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831009.6005]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831009.7769]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831009.9847]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831010.203]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831010.3924]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831010.5625]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831010.7689]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831010.965]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831011.3674]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831011.5503]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831011.9993]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831012.6745]}
+{"app_name":["myApp"],"type":["input"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831012.8683]}
+{"app_name":["myApp"],"type":["login"],"session":["92caf9cca434c45e3fd4670c2cea8d40"],"details":["{\"username\":{}}"],"time":[1697831020.7474]}
+{"app_name":["myApp"],"type":["browser"],"session":["92caf9cca434c45e3fd4670c2cea8d40"],"details":["{\"value\":[\"Chrome 117\"]}"],"time":[1697831020.8262]}
+{"app_name":["myApp"],"type":["login"],"session":["92caf9cca434c45e3fd4670c2cea8d40"],"details":["{\"username\":[\"1ee0xrgx17o8zzg8nl364atqkk0iex\"]}"],"time":[1697831020.8302]}
+{"app_name":["myApp"],"type":["input"],"session":["92caf9cca434c45e3fd4670c2cea8d40"],"details":["{\"id\":[\"jscookie\"],\"value\":{}}"],"time":[1697831020.8322]}
+{"app_name":["myApp"],"type":["input"],"session":["92caf9cca434c45e3fd4670c2cea8d40"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831023.7425]}
+{"app_name":["myApp"],"type":["input"],"session":["92caf9cca434c45e3fd4670c2cea8d40"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831023.8457]}
+{"app_name":["myApp"],"type":["input"],"session":["92caf9cca434c45e3fd4670c2cea8d40"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831024.0305]}
+{"app_name":["myApp"],"type":["input"],"session":["92caf9cca434c45e3fd4670c2cea8d40"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831024.2146]}
+{"app_name":["myApp"],"type":["input"],"session":["92caf9cca434c45e3fd4670c2cea8d40"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831024.4012]}
+{"app_name":["myApp"],"type":["input"],"session":["92caf9cca434c45e3fd4670c2cea8d40"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831024.5322]}
+{"app_name":["myApp"],"type":["input"],"session":["92caf9cca434c45e3fd4670c2cea8d40"],"details":["{\"id\":[\"n\"],\"value\":{}}"],"time":[1697831024.732]}
+{"app_name":["myApp"],"type":["logout"],"session":["92caf9cca434c45e3fd4670c2cea8d40"],"details":["{\"username\":{}}"],"time":[1697831029.2709]}
+{"app_name":["myApp"],"type":["logout"],"session":["5172995a4346aaa44ad6f1de98c8a6bb"],"details":["{\"username\":{}}"],"time":[1697831029.2745]}
